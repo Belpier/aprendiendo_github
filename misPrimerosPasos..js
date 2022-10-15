@@ -4,3 +4,5 @@ console.log('Mis primeros pasos')
 const a = 450
 const b = 454
 console.log(a+b)
+
+console.log('mi segundo dia de practica,')
