@@ -47,3 +47,25 @@ function sumarDosNumeros(a,b){
     return sumar
 }
 console.log(sumarDosNumeros(7,9))
+var nombre = 'Piero'
+nombre
+console.log('mi hermano se llama ${nombre}')
+console.log(`mi hermano se llama ${nombre}`)
+var nombre2 = "Meggy Andrea "
+console.log(`mi hermano es ${nombre} y nuestra madre se llama ${nombre2}`)
+function restaDeDosNumeros(a,b){
+    return a-b
+}
+console.log(restaDeDosNumeros(12,4))
+function sumaDeTresNumeros(a,b,c){
+    return a+b+c
+}
+console.log(sumaDeTresNumeros(4,8,12))
+function numeroAlCuadrado(a){
+    return Math.pow(a,2)
+}
+console.log(numeroAlCuadrado(4))
+function numeroElevadoACualquierExponente(a,b){
+    return Math.pow(a,b)
+}
+console.log(numeroElevadoACualquierExponente(11,3))
